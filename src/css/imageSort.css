@@ -1,0 +1,13 @@
+.image-sort {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,17 @@
+.page-number {
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-number:hover {
+    background-color: #ccc;
+  }
+  
+  .active-page {
+    background-color: #333;
+    color: #fff;
+  }

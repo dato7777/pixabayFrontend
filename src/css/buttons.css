@@ -1,0 +1,76 @@
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  /* width: 150px; */
+}
+
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.nextbutton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+.nextbutton:hover {
+  background-color: #3e8e41;
+}
+
+.nextbutton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.previousButton {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+.previousButton:hover {
+  background-color: #3e8e41;
+}
+
+.previousButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
